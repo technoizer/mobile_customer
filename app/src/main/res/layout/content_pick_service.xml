@@ -17,6 +17,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/link_broadcast"
         android:src="@drawable/rectange_broadcast"
+        android:src="@drawable/rectangle_broadcast"
         android:maxHeight="10dp"
         android:layout_marginBottom="252dp"
         android:layout_alignParentBottom="true"
