@@ -7,10 +7,10 @@
     android:fitsSystemWindows="true"
     tools:context="id.ac.its.alpro.customer.LoginActivity">
 
-    <!--<android.support.design.widget.AppBarLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:theme="@style/AppTheme.AppBarOverlay">-->
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -26,6 +26,7 @@
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true" />
         </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
 
     <include layout="@layout/content_login" />
 
