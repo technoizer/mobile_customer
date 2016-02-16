@@ -3,68 +3,117 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Select your location"
-        android:id="@+id/textView"
-        android:layout_gravity="left"
-        android:textColor="@color/colorPrimary"
-        android:textSize="20dp"
-        android:padding="10dp"
-        />
-
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="50dp"
-        android:layout_height="7dp"
-        android:layout_gravity="left"
-        android:background="@color/merahServisin"></LinearLayout>
-
-    <fragment
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:name="com.google.android.gms.maps.MapFragment"
-        android:id="@+id/map"
-        />
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Select service type"
-        android:id="@+id/textView2"
-        android:textColor="@color/colorPrimary"
-        android:textSize="20dp"
-        android:padding="10dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="50dp"
-        android:layout_height="7dp"
-        android:background="@color/merahServisin" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Select your location"
+                android:id="@+id/textView"
+                android:layout_gravity="left"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:padding="10dp"
+                />
 
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/service_type"
-        android:layout_gravity="center_horizontal" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="50dp"
+                android:layout_height="7dp"
+                android:layout_gravity="left"
+                android:background="@color/merahServisin"
+                android:layout_margin="10dp"></LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Select service type"
-        android:id="@+id/textView3"
-        android:textColor="@color/colorPrimary"
-        android:textSize="20dp"
-        android:padding="10dp"
-        android:layout_gravity="left" />
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:name="com.google.android.gms.maps.MapFragment"
+                android:id="@+id/map"
+                />
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="50dp"
-        android:layout_height="7dp"
-        android:background="@color/merahServisin" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Select service type"
+                android:id="@+id/textView2"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:padding="10dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="50dp"
+                android:layout_height="7dp"
+                android:background="@color/merahServisin"
+                android:layout_margin="10dp"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/service_type"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Select service type"
+                android:id="@+id/textView3"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:layout_gravity="left" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="50dp"
+                android:layout_height="7dp"
+                android:background="@color/merahServisin"
+                android:layout_margin="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/select_service_type"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Service description"
+                android:id="@+id/textView4"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send service request"
+                android:background="@color/merahServisin"
+                android:textColor="@color/common_plus_signin_btn_text_dark_pressed"
+                android:id="@+id/button"
+                android:layout_gravity="right"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
 </LinearLayout>
