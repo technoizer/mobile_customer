@@ -5,4 +5,5 @@
     <string name="title_activity_broadcast_service">Broadcast</string>
     <string name="title_activity_listview_service_provider">ListviewServiceProvider</string>
     <string name="title_activity_providers_detil">ProvidersDetil</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
 </resources>

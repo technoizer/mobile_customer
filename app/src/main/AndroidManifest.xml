@@ -50,8 +50,12 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ProvidersDetil"
-            android:label="@string/title_activity_providers_detil"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:label="@string/title_activity_providers_detil"/>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 
 </manifest>
