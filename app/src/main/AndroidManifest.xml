@@ -43,7 +43,15 @@
 
         <activity
             android:name=".BroadcastService"
-            android:label="@string/title_activity_broadcast_service"></activity>
+            android:label="@string/title_activity_broadcast_service" />
+        <activity
+            android:name=".ListviewServiceProvider"
+            android:label="@string/title_activity_listview_service_provider"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProvidersDetil"
+            android:label="@string/title_activity_providers_detil"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

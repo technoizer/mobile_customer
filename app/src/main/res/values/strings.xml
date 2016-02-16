@@ -3,4 +3,6 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_pick_service">PickService</string>
     <string name="title_activity_broadcast_service">Broadcast</string>
+    <string name="title_activity_listview_service_provider">ListviewServiceProvider</string>
+    <string name="title_activity_providers_detil">ProvidersDetil</string>
 </resources>
