@@ -37,18 +37,13 @@
             android:id="@+id/provider_address"
             android:layout_gravity="right" />
 
-        <RatingBar
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/provider_rating"
-            android:layout_gravity="right" />
-
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="2dp"
+            android:layout_height="wrap_content"
             android:background="#616161"
             android:layout_margin="10dp"/>
+
 
     </LinearLayout>
 
@@ -58,4 +53,5 @@
         android:id="@+id/imageView"
         android:src="@drawable/bulat_broadcast"
         android:layout_gravity="left"/>
+
 </RelativeLayout>

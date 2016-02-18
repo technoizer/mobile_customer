@@ -43,19 +43,24 @@
 
         <activity
             android:name=".BroadcastService"
-            android:label="@string/title_activity_broadcast_service" />
+            android:label="@string/title_activity_broadcast_service"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ListviewServiceProvider"
             android:label="@string/title_activity_listview_service_provider"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ProvidersDetil"
-            android:label="@string/title_activity_providers_detil"/>
+            android:label="@string/title_activity_providers_detil"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".SignUpActivity"
             android:label="@string/title_activity_sign_up"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".DirectService"
+            android:label="@string/title_activity_direct_service"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
