@@ -12,8 +12,8 @@
         android:id="@+id/logo"
         android:src="@drawable/logo_caption"
         android:layout_width="match_parent"
-        android:layout_margin="8dp"
-        android:layout_height="200dp" />
+        android:layout_marginTop="32dp"
+        android:layout_height="@dimen/logo_size" />
 
     <LinearLayout
         android:padding="16dp"
@@ -26,15 +26,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:id="@+id/layout_username">
+            android:id="@+id/layout_email">
 
             <EditText
-                android:id="@+id/username"
+                android:id="@+id/email"
                 android:textStyle="bold"
                 android:inputType="textEmailAddress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Username"/>
+                android:hint="Email"/>
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -69,7 +69,8 @@
     </LinearLayout>
 
     <LinearLayout
-        android:background="#b9302a"
+        android:padding="10dp"
+        android:background="@color/colorPrimary"
         android:layout_alignParentBottom="true"
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -83,6 +84,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <TextView
+            android:id="@+id/signupBtn"
             android:textColor="#ffffff"
             android:text="SIGN UP!"
             android:textStyle="bold"
